@@ -42,12 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="NUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CapaPresentacion\CapaPresentacion.csproj">
-      <Project>{8f21e47d-9c58-4355-aafc-d73b61216803}</Project>
-      <Name>CapaPresentacion</Name>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
+      <Project>{a7d5247f-775c-4534-b536-a2c709a10dff}</Project>
+      <Name>CapaDatos</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
